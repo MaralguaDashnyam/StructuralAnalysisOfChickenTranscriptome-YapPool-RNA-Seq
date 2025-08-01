@@ -45,8 +45,6 @@ _Run the full pipeline without installing anything locally._
 
 │ ├── Dist_of_Transcriptomes.png # Transcript length and abundance plots
 
-│ ├── exons_per_transcript.png # Histogram of exon counts per transcript
-
 │ ├── fig1b.png # Exon structure of high-isoform gene
 
 │ └── fig10.png # IGV-based transcript validation
@@ -62,15 +60,17 @@ _Run the full pipeline without installing anything locally._
 ### Transcript Complexity  
 **Top:** Distribution of transcript counts per gene  
 **Bottom:** Exon counts per transcript  
-| ![](images/Dist_of_Transcriptomes.png) | ![](images/exons_per_transcript.png) |
+![](images/Dist_of_Transcriptomes.png) 
 
 ### Exon Structures of Highly Spliced Genes  
 ![](images/fig1b.png)  
+
 *Figure 1. Overlap between novel transcript MSTRG.3.1 and known Ensembl gene ENSGALT00010012882.1 on chr1 (56,535–61,129 bp).
 The novel transcript discovered from RNA-Seq closely mirrors the structure of a known gene, including exon-intron boundaries and strand orientation. This supports its classification as a novel isoform or rediscovery of an existing gene under a new identifier due to assembly-driven transcript labeling.*
 
 ### IGV Screenshot – Novel vs. Reference  
 ![](images/fig10.png)  
+
 *Figure 10. Readthrough transcript connecting COG5 and DUS4L across multiple gene annotations on chr1 (14,937,315–14,941,425 bp).
 The StringTie assembly includes a transcript that bridges two annotated genes, COG5 and DUS4L, overlapping multiple Ensembl and RefSeq predictions and passing through a CpG island. This readthrough pattern may represent a functional bicistronic transcript, an unannotated fusion, or a regulatory variant, highlighting the dynamic complexity of gene expression in this region.*
 

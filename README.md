@@ -32,14 +32,23 @@ _Run the full pipeline without installing anything locally._
 ## 📂 Project Structure
 
 ├── ResTask02_1.ipynb # Main notebook: Transcriptome Annotation and Alternative Splicing Analysis
+
 ├── YapPool_merged.gtf # Merged transcriptome annotation
+
 ├── Gallus_gallus.bGalGal1.mat.broiler... # Reference GFF3 annotation
+
 ├── YapPool_Transcript_Categories.xlsx # Transcript category labels (C1, C2, C3)
+
 ├── /images # Visualizations and IGV screenshots
+
 │ ├── Gene_Type_Dist.png # Distribution of gene types
+
 │ ├── Dist_of_Transcriptomes.png # Transcript length and abundance plots
+
 │ ├── exons_per_transcript.png # Histogram of exon counts per transcript
+
 │ ├── fig1b.png # Exon structure of high-isoform gene
+
 │ └── fig10.png # IGV-based transcript validation
 
 
@@ -89,7 +98,7 @@ The StringTie assembly includes a transcript that bridges two annotated genes, C
 **Hera Dashnyam**  
 Undergraduate Researcher — Bioinformatics & Environmental Science  
 Miami University  
-📬 dashnyhm@miamioh.edu | [LinkedIn](https://www.linkedin.com/in/hera-d/)
+📬 dashnym@miamioh.edu | [LinkedIn](https://www.linkedin.com/in/hera-d/)
 
 ---
 

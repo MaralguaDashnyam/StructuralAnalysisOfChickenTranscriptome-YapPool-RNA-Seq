@@ -56,8 +56,6 @@ _Run the full pipeline without installing anything locally._
 ![](Gene_Type_Dist.png)
 
 ### Transcript Complexity  
-**Top:** Distribution of transcript counts per gene  
-**Bottom:** Exon counts per transcript  
 ![](Dist_of_Transcriptomes.png) 
 
 ### Exon Structures of Highly Spliced Genes  

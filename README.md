@@ -33,13 +33,11 @@ _Run the full pipeline without installing anything locally._
 
 ├── ResTask02_1.ipynb # Main notebook: Transcriptome Annotation and Alternative Splicing Analysis
 
-├── YapPool_merged.gtf # Merged transcriptome annotation
+├── YapPool_merged.gtf # Merged transcriptome annotation ( https://drive.google.com/file/d/1CCfbLELx253k02_IbV-1UEMWHdoZuwFA/view?usp=sharing )
 
-├── Gallus_gallus.bGalGal1.mat.broiler... # Reference GFF3 annotation
+├── Gallus_gallus.bGalGal1.mat.broiler... # Reference GFF3 annotation ( https://drive.google.com/file/d/1PAub4X8PKvhM1s1F5Wnmmdhh7JPDOOsS/view?usp=sharing )
 
 ├── YapPool_Transcript_Categories.xlsx # Transcript category labels (C1, C2, C3)
-
-├── /images # Visualizations and IGV screenshots
 
 │ ├── Gene_Type_Dist.png # Distribution of gene types
 
@@ -55,21 +53,21 @@ _Run the full pipeline without installing anything locally._
 ## 📈 Key Figures
 
 ### Category & Gene Type Distributions  
-![](images/Gene_Type_Dist.png)
+![](Gene_Type_Dist.png)
 
 ### Transcript Complexity  
 **Top:** Distribution of transcript counts per gene  
 **Bottom:** Exon counts per transcript  
-![](images/Dist_of_Transcriptomes.png) 
+![](Dist_of_Transcriptomes.png) 
 
 ### Exon Structures of Highly Spliced Genes  
-![](images/fig1b.png)  
+![](fig1b.png)  
 
 *Figure 1. Overlap between novel transcript MSTRG.3.1 and known Ensembl gene ENSGALT00010012882.1 on chr1 (56,535–61,129 bp).
 The novel transcript discovered from RNA-Seq closely mirrors the structure of a known gene, including exon-intron boundaries and strand orientation. This supports its classification as a novel isoform or rediscovery of an existing gene under a new identifier due to assembly-driven transcript labeling.*
 
 ### IGV Screenshot – Novel vs. Reference  
-![](images/fig10.png)  
+![](fig10.png)  
 
 *Figure 10. Readthrough transcript connecting COG5 and DUS4L across multiple gene annotations on chr1 (14,937,315–14,941,425 bp).
 The StringTie assembly includes a transcript that bridges two annotated genes, COG5 and DUS4L, overlapping multiple Ensembl and RefSeq predictions and passing through a CpG island. This readthrough pattern may represent a functional bicistronic transcript, an unannotated fusion, or a regulatory variant, highlighting the dynamic complexity of gene expression in this region.*

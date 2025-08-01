@@ -16,7 +16,7 @@ This project investigates transcript structures and alternative splicing in the 
 
 ## 🔗 Google Colab Notebook
 
-[Open in Colab](https://colab.research.google.com/drive/1kA8x6t9A5JE_p6s-jz0eleGVvvj88tWF?usp=sharing)  
+[Open in Colab](https://colab.research.google.com/drive/18rvv6fSdTu-DZ0AnOi12ygpJjXKqMLdY?usp=sharing)  
 _Run the full pipeline without installing anything locally._
 
 ---
